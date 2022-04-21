@@ -1,0 +1,62 @@
+section {
+    background-color: rgb(12, 12, 12);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+
+h1, p, h2 {
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 200px;
+    width: 350px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(116, 116, 209);
+}
+.card_color2{
+    background-color: rgb(0, 230, 64);
+}
+.card_color3{
+    background-color: rgb(253, 202, 0);
+}
+.card_colorR{
+    background-color: rgb(253, 0, 0);
+}
+.card_colorD{
+    background-color: rgb(253, 63, 0);
+}
+.card_main {
+    transition: transform .2s; /* Animation */
+   
+  }
+  
+.card_main:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
